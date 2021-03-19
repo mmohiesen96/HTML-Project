@@ -4,7 +4,6 @@ function myFunc() {
     var b = document.getElementsByTagName('pre');
     for (let i = 0; i < b.length; i++) {
         b[i].style.color = a;
+        console.log(b[i]);
     }
 }
-
-console.log(a);
