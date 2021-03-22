@@ -1,3 +1,5 @@
+function welcomeFunc(){
+
 console.log("Hi Welcome to sports site !");
 var fName = prompt("Enter your First Name , please");
 var lName = prompt("Enter your Last Name , please");
@@ -22,6 +24,8 @@ else{
 
 
 
+}
 
+welcomeFunc();
 
 

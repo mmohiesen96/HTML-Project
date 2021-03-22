@@ -1,3 +1,5 @@
+function sectionFunc(){
+
 var sec = prompt("Please enter the section you want to visit : 'Choose 1 , 2 or 3'");
 
 console.log(typeof(sec));
@@ -14,3 +16,6 @@ else if (sec == '2' ){
 else{
     document.getElementById("3").innerHTML = "Your Chosen section";
 } 
+
+}
+sectionFunc();

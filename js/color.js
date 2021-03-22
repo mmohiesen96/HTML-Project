@@ -1,4 +1,5 @@
-function myFunc() {
+
+ function colorFunc() {
     var x = document.getElementById("ColorFf").selectedIndex;
     var a = document.getElementsByTagName("option")[x].value;
     var b = document.getElementsByTagName('pre');
@@ -6,4 +7,7 @@ function myFunc() {
         b[i].style.color = a;
         console.log(b[i]);
     }
+
 }
+
+colorFunc();
